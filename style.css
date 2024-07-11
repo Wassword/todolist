@@ -41,12 +41,12 @@ input[type="text"] {
     background-color: #84b7ef;
 
 }
-ul {
-    list-style-type: none;
+#todo-list {
+    list-style-type: decimal;
     padding: 0;
 
 }
-li {
+#todo-list {
     padding: 10px;
     margin-bottom: 5px;
     background-color: #a9e2ec;

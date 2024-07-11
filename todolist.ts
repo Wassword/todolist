@@ -1,7 +1,7 @@
 
     const addTodoButton = document.getElementById('add-todo') as HTMLButtonElement;
     const newTodoInput = document.getElementById('new-todo') as HTMLInputElement;
-    const todoList = document.getElementById('todo-list') as HTMLDataListElement;
+    const todoList = document.getElementById('todo-list') as HTMLOListElement;
 
     addTodoButton.addEventListener('click', () => {
         const todoText = newTodoInput.value.trim();
