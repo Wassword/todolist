@@ -20,7 +20,7 @@
         }
     });
 
-    newTodoInput.addEventListener('keypress', (e) => {
+    newTodoInput.addEventListener('keypress', (e: KeyboardEvent) => {
         if (e.key === 'Enter') {
             addTodoButton.click();
         }
